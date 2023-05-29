@@ -13,7 +13,7 @@ export default function Weather() {
   let city = "urmia";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${metric}`;
   axios.get(apiUrl).then(displayWeather);
-  
+
   return (
     <div>
       <h1>jjj </h1>
@@ -21,7 +21,7 @@ export default function Weather() {
         height="80"
         width="80"
         radius="9"
-        color="green"
+        color="blue"
         ariaLabel="loading"
       />
     </div>
